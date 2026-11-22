@@ -1,0 +1,35 @@
+{
+  "rubert-tiny2": {
+    "model": "cointegrated/rubert-tiny2",
+    "val_f1": 0.930522280785817,
+    "test_f1": 0.9309450277949352,
+    "test_f1_macro": 0.9283773297740433,
+    "test_per_type": {
+      "LOC": 0.9519353466609953,
+      "ORG": 0.8639562157935888,
+      "PER": 0.9692404268675454
+    },
+    "train_sec": 33.707594422,
+    "infer_val_sec": 1.133841179000001,
+    "params": 29098303,
+    "size_mb": 111.00121688842773
+  },
+  "rubert-base-cased": {
+    "model": "DeepPavlov/rubert-base-cased",
+    "val_f1": 0.9777616630408509,
+    "test_f1": 0.9758646429460065,
+    "test_f1_macro": 0.9742572938119546,
+    "test_per_type": {
+      "LOC": 0.9814345991561182,
+      "ORG": 0.9442026117926395,
+      "PER": 0.997134670487106
+    },
+    "train_sec": 122.305628678,
+    "infer_val_sec": 2.273609611999973,
+    "params": 177268231,
+    "size_mb": 676.2246360778809,
+    "peak_train_mem_gb": 3.876063346862793
+  },
+  "other_revision": "4036cab694767a299f2b9e6492909664d9414229",
+  "other_lr": 5e-05
+}
